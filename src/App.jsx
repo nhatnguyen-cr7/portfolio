@@ -1,6 +1,9 @@
 import "./App.css";
 import Proflie from "./assets/Photo.png";
-import Project from "./assets/Project.png";
+import Project1 from "./assets/Project1.png";
+import Project2 from "./assets/Project2.png";
+import Project3 from "./assets/Project3.png";
+
 
 function App() {
   return (
@@ -39,12 +42,12 @@ function App() {
           <div className="gap-4 py-10 flex md:flex-row flex-col justify-between">
             <div className="text-center mb-12 md:text-left md:w-1/2">
               <h1 className="text-white text-7xl font-extrabold">
-                Hi, I’m Ada
+                Hi, I’m Nhật!
               </h1>
               <p className="mt-12 text-white text-3xl font-normal">
-                I’m a full-stack developer with 5 years
+                I’m a Front-End developer with 1 years
                 <br />
-                of experience using React and NodeJS.
+                of experience using React.
                 <br />
                 Reach out if you’d like to learn more!
               </p>
@@ -71,41 +74,59 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-200 rounded-lg shadow-lg p-6">
               <h2 className="text-xl font-semibold mb-4">Project 1</h2>
-              <img src={Project} alt="" />
+              <img src={Project1} alt="" />
               <p className="text-gray-600">Description of Project 1...</p>
               <div className="flex justify-center items-center gap-4">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
-                  Demo
-                </button>
+                <a
+                  href="https://gentech.onrender.com/"
+                >
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/toannguyen-devplus/e_commerce">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
                   Github
                 </button>
+                </a>
               </div>
             </div>
             <div className="bg-gray-200 rounded-lg shadow-lg p-6">
               <h2 className="text-xl font-semibold mb-4">Project 2</h2>
-              <img src={Project} alt="" />
+              <img src={Project2} alt="" />
               <p className="text-gray-600">Description of Project 2...</p>
               <div className="flex justify-center items-center gap-4">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
-                  Demo
-                </button>
+              <a
+                  href="https://final-project-fe.vercel.app/"
+                >
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/GenTech-OJT/final_project_fe">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
                   Github
                 </button>
+                </a>
               </div>
             </div>
             <div className="bg-gray-200 rounded-lg shadow-lg p-6">
               <h2 className="text-xl font-semibold mb-4">Project 3</h2>
-              <img src={Project} alt="" />
+              <img src={Project3} alt="" />
               <p className="text-gray-600">Description of Project 3...</p>
               <div className="flex justify-center items-center gap-4">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
-                  Demo
-                </button>
+              <a
+                  href="https://final-project-fe.vercel.app/"
+                >
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/minhnhat109/BigCity">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out">
                   Github
                 </button>
+                </a>
               </div>
             </div>
           </div>
