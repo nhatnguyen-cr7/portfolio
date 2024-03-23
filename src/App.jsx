@@ -1,8 +1,8 @@
 import "./App.css";
 import Proflie from "./assets/Photo.png";
-import Project1 from "./assets/Project1.png";
-import Project2 from "./assets/Project2.png";
-import Project3 from "./assets/Project3.png";
+import Project1 from "./assets/project1.png";
+import Project2 from "./assets/project2.png";
+import Project3 from "./assets/project3.png";
 
 
 function App() {
